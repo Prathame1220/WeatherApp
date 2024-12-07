@@ -49,7 +49,11 @@ const WeatherApp = () => {
   };
 
   return (
+    
+
     <div className="container">
+      <h1 className="title">Weather App</h1>
+      
       <form className="search-bar" onSubmit={getWeather}>
         <input
           type="text"
@@ -63,6 +67,7 @@ const WeatherApp = () => {
       {error && <p style={{ color: 'red' }}>{error}</p>}
       {displayWeather()}
     </div>
+    
   );
 };
 

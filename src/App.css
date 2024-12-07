@@ -10,9 +10,11 @@ body {
 .container {
   display: flex;
   justify-content: center;
+  height: 80vh;
+  margin: auto;
   align-items: center;
-  height: 100vh;
   flex-direction: column;
+  
 }
 
 .search-bar {
@@ -50,4 +52,10 @@ body {
 .weather-icon{
   width: 100px;
   height: 100px;
+}
+.title{
+  font-size: 24px;
+  margin-bottom: 50px;
+  align-items: center;
+  margin-right: 30px;
 }
